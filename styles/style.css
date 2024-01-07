@@ -2,7 +2,11 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
+.section-title{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* banner style */
 .banner{
@@ -45,4 +49,53 @@ body{
 }
 .btn-style{
     text-align: right;
+}
+
+/* about section styles */
+.first{
+    margin-top:130px;
+}
+
+.about{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    width: 70%;
+    margin:auto;
+}
+.about-content{
+    width: 50%;
+    
+}
+
+.about-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: left;
+}
+
+ul{
+    list-style:lower-roman;
+    text-align: left;
+    margin-left: -20px;
+}
+
+/* My Plan section style */
+
+.second{
+    margin-top:130px;
+}
+
+.plan-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-item{
+    display: flex;
+    justify-content: space-evenly;
 }
